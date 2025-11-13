@@ -50,6 +50,55 @@ Designed with **OOP principles**, modular components, and a user-friendly GUI in
 | **FileExamStorage** | JSON saving and loading |
 
 ---
+## 🧩 Scheduling Logic Overview
 
-## 📁 Project Structure
+### 🔹 Room Assignment
+- Randomized room priority  
+- Checks existing exams for time conflicts  
+- Assigns the first non-conflicting room  
+- Notifies user if both rooms clash  
+
+### 🔹 Time Validation
+- Required format: **hh:mm AM/PM**  
+- Example: `09:00 AM`, `12:30 PM`, `02:00 PM`  
+
+### 🔹 Day Detection
+- Auto-detected using **LocalDate**  
+- Displayed in the schedule table  
+
+### 🔹 Roll Number Allocation (Round Robin)
+
+| Room | Rolls Assigned |
+|------|----------------|
+| **N201** | 1, 3, 5, …, 59 |
+| **N203** | 2, 4, 6, …, 60 |
+
+---
+
+## 📚 Use Cases
+- College exam seating arrangement  
+- Department exam administration  
+- Mini academic project  
+- Demonstration of Swing + OOP  
+- JSON-based desktop application  
+
+---
+
+## 🧱 Tech Stack
+- **Java 8+**  
+- **Swing UI Toolkit**  
+- **JSON File Storage**  
+- **OOP Concepts** (Encapsulation, Modularity, MVC-like Design)  
+- **Collections & File Handling**  
+
+---
+
+## 📄 License
+You may add a license from GitHub (MIT recommended).
+
+---
+
+## ❤️ Author
+**Darshan Suresh**  
+Creator of **SchedulEase** – a simple and powerful exam scheduling automation tool.
 
