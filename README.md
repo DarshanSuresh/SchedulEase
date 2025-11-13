@@ -1,4 +1,4 @@
-# 📘 SchedulEase – Advanced Exam Scheduling System (Java Swing)
+# 📘 SchedulEase – Exam Scheduling System (Java Swing)
 
 **SchedulEase** is a graphical Exam Scheduler application built using **Java Swing**.  
 It automates the process of assigning rooms, validating timing, distributing roll numbers, and storing exam information efficiently in JSON format.
