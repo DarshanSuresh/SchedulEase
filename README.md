@@ -5,7 +5,7 @@ It automates the process of assigning rooms, validating timing, distributing rol
 
 Designed with **OOP principles**, modular components, and a user-friendly GUI interface, SchedulEase is suitable for both academic submissions and real-world institutional use.
 
----
+--- 
 
 ## 🚀 Features
 
